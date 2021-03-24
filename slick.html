@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html ="ja">
+     <head>
+         <meta charset="UTF-8">
+         <title>slick</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+         <script type="text/javascript">
+         $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,//自動でスライド
+                pause: 4000,//秒数（４０００＝４秒）
+                slideWidth: 1000,//（横幅設定
+            });
+        });
+        </script>
+
+     </head>
+ </html>
+ <body>
+<p class="text" style="font-weight:bold; font-size:20px; margin-left:50px;">slickのスライドショー</p>
+<div class="slider">
+  <img src="big_main10015782_20200806113200000000 (1).jpg" width="500" height="700" alt="">
+  <img src="sky_00165.jpg" width="500" height="700" alt="">
+  <img src="ダウンロード (1).jpeg" width="500" height="700" alt="">
+  <img src="ダウンロード.jpeg" width="500" height="700" alt="">
+</div>
+<p class="text" style="margin-left:50px; font-size:16px;">４秒ごとにスライドします</p>
+<p class="text" style="margin-left:50px; font-size:16px;">左右の矢印を押下でスライドさせることができます</p>
+ </body>
